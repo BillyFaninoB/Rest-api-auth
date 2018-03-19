@@ -11,7 +11,7 @@
 class Rest_Api_Key{
 
 	public function construct(){
-		add_action('admin_menu', [$this, 'add_menu']);
+		
 	}
 
 	public static function add_menu(){
